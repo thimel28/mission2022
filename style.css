@@ -21,7 +21,7 @@ body{
     border-left: 10px solid;
     border-image: linear-gradient(pink, deeppink);
     border-image-slice: 1;
-    
+    padding-left: 30px;    
 
 }
 .link-button{
@@ -108,9 +108,10 @@ body{
     background-color: rgb(252, 244, 229);
 }
 .foods-part{
-    background-image: url(images/);
+    background-image: url(images/food-bg.jpg);
     background-position: left;
     margin-top: 100px;
+    background-repeat: no-repeat;
 
     
 }
@@ -132,7 +133,7 @@ body{
     text-align: justify;
 }
 .child-labour{
-    background-image: url(images/child-labour-bg);
+    background-image: url(images/child-labour-bg.jpg);
     background-position: left;
     margin-top: 100px;
 }
@@ -150,4 +151,19 @@ body{
 #app-text p{
     font-size: 25px;
     text-align: justify;
+}
+footer{
+    background: cornsilk;
+    
+}
+footer img{
+    width: 5%;
+    padding: 15px 900px;
+}
+footer p{
+    color: crimson;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
 }
