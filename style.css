@@ -48,10 +48,13 @@ body{
     background-image: url(images/mission-bg.jpg);
     background-repeat: no-repeat;
 }
+.pink-color{
+    color: rgb(240, 30, 146);
+}
 .my-missions h1{
     font-size: 50px;
     text-align: center;
-    color: deeppink;
+    
 }
 #mission1 img{
     width: 150px;
@@ -103,4 +106,48 @@ body{
     margin-right: 5%;
     border-radius: 15px;
     background-color: rgb(252, 244, 229);
+}
+.foods-part{
+    background-image: url(images/);
+    background-position: left;
+    margin-top: 100px;
+
+    
+}
+.photos img{
+    border-radius: 15px;
+    width: 500px;
+
+}
+.food-child-labour-text{
+    padding-left: 60px;
+}
+.food-child-labour-text h1{
+    color: lightcoral;
+    font-size: 40px;
+    
+}
+.food-child-labour-text p{
+    font-size: 25px;
+    text-align: justify;
+}
+.child-labour{
+    background-image: url(images/child-labour-bg);
+    background-position: left;
+    margin-top: 100px;
+}
+.app-part h1{
+    font-size: 55px;
+    text-align: center;
+}
+#app{
+    width: 60%;
+
+}
+#app-text{
+    padding-top: 250px ;
+}
+#app-text p{
+    font-size: 25px;
+    text-align: justify;
 }
